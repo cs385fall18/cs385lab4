@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.185.241.145 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.185.241.145
+Server Port:            8080
+
+Document Path:          /fibonacci
+Document Length:        36 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.489 seconds
+Complete requests:      7770
+Failed requests:        0
+Total transferred:      1118880 bytes
+Total body sent:        1368336
+HTML transferred:       279720 bytes
+Requests per second:    5216.97 [#/sec] (mean)
+Time per request:       19.168 [ms] (mean)
+Time per request:       0.192 [ms] (mean, across all concurrent requests)
+Transfer rate:          733.64 [Kbytes/sec] received
+                        897.20 kb/s sent
+                        1630.84 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.0      0      18
+Processing:     1   18   3.6     18      43
+Waiting:        0   18   3.5     18      38
+Total:          1   19   3.6     18      44
+
+Percentage of the requests served within a certain time (ms)
+  50%     18
+  66%     19
+  75%     19
+  80%     20
+  90%     23
+  95%     26
+  98%     28
+  99%     29
+ 100%     44 (longest request)
