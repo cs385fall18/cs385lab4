@@ -1,4 +1,4 @@
-replicas, concurrency, requests_per_second, longest_request, 98_percentile
+replicas,   concurrency, requests_per_second, longest_request, 98_percentile
 3, 			50, 		5137.05, 			43, 			26
 3, 			100, 		4991.53, 			108, 			57
 3, 			500, 		4845.48, 			1199, 			279
