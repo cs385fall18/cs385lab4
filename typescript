@@ -3171,4 +3171,432 @@ Concurrency Level:      5000
 Requests per second:    2517.75 [#/sec] (mean)
   98%   4776
  100%   7895 (longest request)
-]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile output1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cab -p payload.json -T application/json -m POST -c 5000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci  > result6[K7[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci >[1P result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -n 20000 -s 1 -r http://35.18
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile output1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cab -p payload.json -T application/json -m POST -c 5000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci  > result6[K7[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci >[1P result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci[1@ [A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0000 -s 1 -r http://35.185.241.145:8080/fibonacci [1P[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C30000 -s 1 -r http://35.185.241.145:8080/fibonacci[1@ [A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ ab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ ab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ gis[Kt status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   Dockerfile[m
+	[31mmodified:   makefile[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31ma_file[m
+	[31mfibonacci[m
+	[31mnewfile[m
+	[31moutput[m
+	[31moutput1[m
+	[31moutput2[m
+	[31moutput3[m
+	[31moutput4[m
+	[31moutput5[m
+	[31moutput6[m
+	[31moutput7[m
+	[31moutput8[m
+	[31mpayload.json[m
+	[31mresul$[m
+	[31mresult1[m
+	[31mresult2[m
+	[31mresult3[m
+	[31mresult4[m
+	[31mresult5[m
+	[31mresult6[m
+	[31mresult7[m
+	[31mresult8[m
+	[31mresult_fifty[m
+	[31mscript.sh[m
+	[31mscript1.sh[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ git add .
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ git commit -M [K[Km ""A"d"d"e"d" "s"c"r"i"p"s" "a"[1P"a"n"d" "o"u"t"p"u"t" "f"i"l"e"s"[1P"[1P"[1P"[1P"[1P"[1P" "f"i"l"e"s"
+[master 031145e] Added scrips and output files
+ Committer: dtauraso <dtauraso@lab04.c.gifted-decker-214823.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 28 files changed, 3695 insertions(+), 25 deletions(-)
+ create mode 100644 a_file
+ create mode 100755 fibonacci
+ rewrite makefile (60%)
+ create mode 100644 newfile
+ create mode 100644 output
+ create mode 100644 output1
+ create mode 100644 output2
+ create mode 100644 output3
+ create mode 100644 output4
+ create mode 100644 output5
+ create mode 100644 output6
+ create mode 100644 output7
+ create mode 100644 output8
+ create mode 100644 payload.json
+ create mode 100644 resul$
+ create mode 100644 result1
+ create mode 100644 result2
+ create mode 100644 result3
+ create mode 100644 result4
+ create mode 100644 result5
+ create mode 100644 result6
+ create mode 100644 result7
+ create mode 100644 result8
+ create mode 100644 result_fifty
+ create mode 100644 script.sh
+ create mode 100644 script1.sh
+ create mode 100644 typescript
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ git push ""https://github.com/dtauraso/cs385lab4.git"[C master
+Username for 'https://github.com': dtauraso
+Password for 'https://dtauraso@github.com': 
+Counting objects: 29, done.
+Compressing objects:   3% (1/27)   Compressing objects:   7% (2/27)   Compressing objects:  11% (3/27)   Compressing objects:  14% (4/27)   Compressing objects:  18% (5/27)   Compressing objects:  22% (6/27)   Compressing objects:  25% (7/27)   Compressing objects:  29% (8/27)   Compressing objects:  33% (9/27)   Compressing objects:  37% (10/27)   Compressing objects:  40% (11/27)   Compressing objects:  44% (12/27)   Compressing objects:  48% (13/27)   Compressing objects:  51% (14/27)   Compressing objects:  55% (15/27)   Compressing objects:  59% (16/27)   Compressing objects:  62% (17/27)   Compressing objects:  66% (18/27)   Compressing objects:  70% (19/27)   Compressing objects:  74% (20/27)   Compressing objects:  77% (21/27)   Compressing objects:  81% (22/27)   Compressing objects:  85% (23/27)   Compressing objects:  88% (24/27)   Compressing objects:  92% (25/27)   Compressing objects:  96% (26/27)   Compressing objects: 100% (27/27)   Compressing objects: 100% (27/27), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  20% (6/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  24% (7/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  27% (8/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  31% (9/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  34% (10/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  37% (11/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  41% (12/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  44% (13/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  48% (14/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  51% (15/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  55% (16/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  65% (19/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  68% (20/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  72% (21/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  75% (22/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  79% (23/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  86% (25/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  89% (26/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  93% (27/29), 1.05 MiB | 1.92 MiB/s   Writing objects:  96% (28/29), 1.05 MiB | 1.92 MiB/s   Writing objects: 100% (29/29), 1.05 MiB | 1.92 MiB/s   Writing objects: 100% (29/29), 2.36 MiB | 2.11 MiB/s, done.
+Total 29 (delta 17), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:  52% (9/17)   [Kremote: Resolving deltas:  88% (15/17)   [Kremote: Resolving deltas:  94% (16/17)   [Kremote: Resolving deltas: 100% (17/17)   [Kremote: Resolving deltas: 100% (17/17), completed with 1 local object.[K
+To https://github.com/dtauraso/cs385lab4.git
+   a7a838a..031145e  master -> master
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ git push "https://github.com/dtauraso/cs385lab4.git" master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcommit -m "Added scrips and output files"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kstatusab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ ab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile 
+Concurrency Level:      50
+Requests per second:    4819.43 [#/sec] (mean)
+  98%     18
+ 100%     57 (longest request)
+Concurrency Level:      100
+Requests per second:    5085.30 [#/sec] (mean)
+  98%     28
+ 100%     46 (longest request)
+Concurrency Level:      500
+Requests per second:    4453.16 [#/sec] (mean)
+  98%   1071
+ 100%   1469 (longest request)
+Concurrency Level:      1000
+Requests per second:    3619.32 [#/sec] (mean)
+  98%   1474
+ 100%   2759 (longest request)
+Concurrency Level:      2000
+Requests per second:    3556.71 [#/sec] (mean)
+  98%   1928
+ 100%   2795 (longest request)
+Concurrency Level:      5000
+Requests per second:    2517.75 [#/sec] (mean)
+  98%   4776
+ 100%   7895 (longest request)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile ab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [49Pgit push "https://github.com/dtauraso/cs385lab4.git" master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcommit -m "Added scrips and output files"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kstatusab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cab -p payload.json -T application/json -m POST -c 5000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci  > result6[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano script.sh [Kgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano script.sh [K
+[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;58H(B[0;7m[ Reading File ](B[m[39;57H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                               script.sh                                                          [1;129H(B[m[40d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[40;113H(B[0;7mM-A(B[m Mark Text[41d(B[0;7m^X(B[m Exit[41;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[41;113H(B[0;7mM-6(B[m Copy Text[39d[3d[39;49m[36m#!/bin/sh[4d[39m(B[mab -p payload.json -T application/json -m POST -c 50 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result1 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E (B[0;1m[33m'[39m(B[m$[6;1Hab -p payload.json -T application/json -m POST -c 100 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result2 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E $[8;1Hab -p payload.json -T application/json -m POST -c 500 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result3 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E $[10;1Hab -p payload.json -T application/json -m POST -c 1000 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result4 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[12;1Hab -p payload.json -T application/json -m POST -c 2000 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result5 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[14;1Hab -p payload.json -T application/json -m POST -c 5000 [32m-n[39m(B[m 20000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result6 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[16;1Hab -p payload.json -T application/json -m POST -c 10000 [32m-n[39m(B[m 30000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result7 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -$[18;1Hab -p payload.json -T application/json -m POST -c 15000 [32m-n[39m(B[m 45000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result8 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -$[20;1H(B[0;1m[34mcat[39m(B[m output1 output2 output3 output4 output5 output6 output7 output8 [32m>[39m(B[m newfile[3d[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25l.[?12l[?25h[?25lj[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lT[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lp[?12l[?25h[?25l[39d[K[4;26H[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lj[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lP[?12l[?25h[?25l[40d[J[41;130H[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ man ab
+[?1049h[22;0;0t[?1h=AB(1)                                                         ab                                                         AB(1)[m
+[m
+[1mNAME[0m[m
+       ab - Apache HTTP server benchmarking tool[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mab[0m  [  -[1mA[0m [4mauth-username[24m:[4mpassword[24m ] [ -[1mb[0m [4mwindowsize[24m ] [ -[1mB[0m [4mlocal-address[24m ] [ -[1mc[0m [4mconcurrency[24m ] [ -[1mC[0m [4mcookie-name[24m=[4mvalue[24m ] [[m
+       -[1md[0m ] [ -[1me[0m [4mcsv-file[24m ] [ -[1mf[0m [4mprotocol[24m ] [ -[1mg[0m [4mgnuplot-file[24m ] [ -[1mh[0m ] [ -[1mH[0m [4mcustom-header[24m ] [ -[1mi[0m ] [ -[1mk[0m ] [ -[1ml[0m ]  [  -[1mm[0m  [4mHTTP-[24m[m
+       [4mmethod[24m  ] [ -[1mn[0m [4mrequests[24m ] [ -[1mp[0m [4mPOST-file[24m ] [ -[1mP[0m [4mproxy-auth-username[24m:[4mpassword[24m ] [ -[1mq[0m ] [ -[1mr[0m ] [ -[1ms[0m [4mtimeout[24m ] [ -[1mS[0m ] [ -[1mt[0m[m
+       [4mtimelimit[24m ] [ -[1mT[0m [4mcontent-type[24m ] [ -[1mu[0m [4mPUT-file[24m ] [ -[1mv[0m [4mverbosity[24m] [  -[1mV[0m  ]  [  -[1mw[0m  ]  [  -[1mx[0m  [4m<table>-attributes[24m  ]  [  -[1mX[0m[m
+       [4mproxy[24m[:[4mport[24m] ] [ -[1my[0m [4m<tr>-attributes[24m ] [ -[1mz[0m [4m<td>-attributes[24m ] [ -[1mZ[0m [4mciphersuite[24m ] [http[s]://][4mhostname[24m[:[4mport[24m]/[4mpath[24m[m
+[m
+[1mSUMMARY[0m[m
+       ab  is  a  tool  for  benchmarking your Apache Hypertext Transfer Protocol (HTTP) server. It is designed to give you an[m
+       impression of how your current Apache installation performs. This especially shows you how  many  requests  per  second[m
+       your Apache installation is capable of serving.[m
+[m
+[1mOPTIONS[0m[m
+       -A [4mauth-username[24m:[4mpassword[24m[m
+              Supply BASIC Authentication credentials to the server. The username and password are separated by a single : and[m
+              sent on the wire base64 encoded. The string is sent regardless of whether the server needs it ([4mi.e.[24m, has sent an[m
+              401 authentication needed).[m
+[m
+       -b [4mwindowsize[24m[m
+              Size of TCP send/receive buffer, in bytes.[m
+[m
+       -B [4mlocal-address[24m[m
+              Address to bind to when making outgoing connections.[m
+[m
+       -c [4mconcurrency[24m[m
+              Number of multiple requests to perform at a time. Default is one request at a time.[m
+[m
+       -C [4mcookie-name[24m=[4mvalue[24m[m
+              Add  a  Cookie:  line  to the request. The argument is typically in the form of a [4mname[24m=[4mvalue[24m pair. This field is[m
+              repeatable.[m
+[m
+       -d     Do not display the "percentage served within XX [ms] table". (legacy support).[m
+[m
+       -e [4mcsv-file[24m[m
+              Write a Comma separated value (CSV) file which contains for each percentage (from 1% to 100%) the time (in  mil‐[m
+[7m Manual page ab(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              liseconds)  it  took  to  serve  that percentage of the requests. This is usually more useful than the 'gnuplot'[m
+[7m Manual page ab(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              file; as the results are already 'binned'.[m
+[7m Manual page ab(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -f [4mprotocol[24m[m
+[7m Manual page ab(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Specify SSL/TLS protocol (SSL2, SSL3, TLS1, TLS1.1, TLS1.2, or ALL). TLS1.1  and  TLS1.2  support  available  in[m
+[7m Manual page ab(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              2.4.4 and later.[m
+[7m Manual page ab(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -g [4mgnuplot-file[24m[m
+[7m Manual page ab(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Write all measured values out as a 'gnuplot' or TSV (Tab separate values) file. This file can easily be imported[m
+[7m Manual page ab(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              into packages like Gnuplot, IDL, Mathematica, Igor or even Excel. The labels are on the first line of the file.[m
+[7m Manual page ab(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -h     Display usage information.[m
+[7m Manual page ab(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -H [4mcustom-header[24m[m
+[7m Manual page ab(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Append extra headers to the request. The argument is typically in the form of a valid header line, containing  a[m
+[7m Manual page ab(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              colon-separated field-value pair ([4mi.e.[24m, "Accept-Encoding: zip/zop;8bit").[m
+[7m Manual page ab(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -i     Do HEAD requests instead of GET.[m
+[7m Manual page ab(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -k     Enable  the  HTTP  KeepAlive  feature,  [4mi.e.[24m,  perform  multiple requests within one HTTP session. Default is no[m
+[7m Manual page ab(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              KeepAlive.[m
+[7m Manual page ab(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -l     Do not report errors if the length of the responses is not constant. This  can  be  useful  for  dynamic  pages.[m
+[7m Manual page ab(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Available in 2.4.7 and later.[m
+[7m Manual page ab(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -m [4mHTTP-method[24m[m
+[7m Manual page ab(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Custom HTTP method for the requests. Available in 2.4.10 and later.[m
+[7m Manual page ab(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -n [4mrequests[24m[m
+[7m Manual page ab(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Number  of  requests  to  perform  for the benchmarking session. The default is to just perform a single request[m
+[7m Manual page ab(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              which usually leads to non-representative benchmarking results.[m
+[7m Manual page ab(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -p [4mPOST-file[24m[m
+[7m Manual page ab(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              File containing data to POST. Remember to also set -T.[m
+[7m Manual page ab(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -P [4mproxy-auth-username[24m:[4mpassword[24m[m
+[7m Manual page ab(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Supply BASIC Authentication credentials to a proxy en-route. The username and password are separated by a single[m
+[7m Manual page ab(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              :  and  sent  on the wire base64 encoded. The string is sent regardless of whether the proxy needs it ([4mi.e.[24m, has[m
+[7m Manual page ab(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sent an 407 proxy authentication needed).[m
+[7m Manual page ab(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -q     When processing more than 150 requests, ab outputs a progress count on stderr every 10% or 100 requests  or  so.[m
+[7m Manual page ab(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              The -q flag will suppress these messages.[m
+[7m Manual page ab(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -r     Don't exit on socket receive errors.[m
+[7m Manual page ab(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -s [4mtimeout[24m[m
+[7m Manual page ab(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Maximum  number  of  seconds  to wait before the socket times out. Default is 30 seconds. Available in 2.4.4 and[m
+[7m Manual page ab(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              later.[m
+[7m Manual page ab(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -S     Do not display the median and standard deviation values, nor display the warning/error messages when the average[m
+[7m Manual page ab(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              and  median  are more than one or two times the standard deviation apart. And default to the min/avg/max values.[m
+[7m Manual page ab(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              (legacy support).[m
+[7m Manual page ab(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ab(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -t [4mtimelimit[24m[m
+[7m Manual page ab(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Maximum number of seconds to spend for benchmarking. This implies a -n 50000 internally. Use this  to  benchmark[m
+[7m Manual page ab(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the server within a fixed total amount of time. Per default there is no timelimit.[m
+[7m Manual page ab(1) line 57 (press h for help or q to quit)[27m[K[K [K^X^X[K^?^?[K[7m Manual page ab(1) line 57 (press h for help or q to quit)[27m[K[K[7m Manual page ab(1) line 57 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ man abnano script.sh 
+[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;58H(B[0;7m[ Reading File ](B[m[39;57H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                               script.sh                                                          [1;129H(B[m[40d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[40;113H(B[0;7mM-A(B[m Mark Text[41d(B[0;7m^X(B[m Exit[41;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[41;113H(B[0;7mM-6(B[m Copy Text[39d[3d[39;49m[36m#!/bin/sh[4d[39m(B[mab -p payload.json -T application/json -m POST -c 50 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result1 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E (B[0;1m[33m'[39m(B[m$[6;1Hab -p payload.json -T application/json -m POST -c 100 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result2 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E $[8;1Hab -p payload.json -T application/json -m POST -c 500 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result3 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E $[10;1Hab -p payload.json -T application/json -m POST -c 1000 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result4 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[12;1Hab -p payload.json -T application/json -m POST -c 2000 [32m-n[39m(B[m 10000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result5 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[14;1Hab -p payload.json -T application/json -m POST -c 5000 [32m-n[39m(B[m 20000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result6 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E$[16;1Hab -p payload.json -T application/json -m POST -c 10000 [32m-n[39m(B[m 30000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result7 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -$[18;1Hab -p payload.json -T application/json -m POST -c 15000 [32m-n[39m(B[m 45000 [32m-s[39m(B[m 1 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result8 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -$[20;1H(B[0;1m[34mcat[39m(B[m output1 output2 output3 output4 output5 output6 output7 output8 [32m>[39m(B[m newfile[3d[?12l[?25h[?25l[4d[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25ly[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25l.[?12l[?25h[?25lj[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lT[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lp[?12l[?25h[?25l[39d[K[4;26H[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lj[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lP[?12l[?25h[?25lO[?12l[?25h[?25lS[?12l[?25h[?25lT[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l50 [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[1;121H(B[0;7mModified(B[m[4;67H0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result1 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E [4;68H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result1 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E[4;69H[?12l[?25h[?25l[5d[?12l[?25h[?25l[6;69H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result2 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E[6;69H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result2 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -[6;70H[?12l[?25h[?25l[7d[?12l[?25h[?25l[8;70H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result3 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -E[8;69H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result3 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -[8;70H[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;70H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result4 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -[10;70H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result4 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m [10;71H[?12l[?25h[?25l[11d[?12l[?25h[?25l[12;71H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result5 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -[12;70H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result5 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m [12;71H[?12l[?25h[?25l[13d[?12l[?25h[?25l[14;71H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result6 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m -[14;70H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result6 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m [14;71H[?12l[?25h[?25l[15d[?12l[?25h[?25l[16;71H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result7 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m [16;71H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result7 [32m&&[39m(B[m (B[0;1m[34mgrep[16;72H[39m(B[m[?12l[?25h[?25l[17d[?12l[?25h[?25l[18;72H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result8 [32m&&[39m(B[m (B[0;1m[34mgrep[39m(B[m [18;71H[?12l[?25h[?25l0 [32m-r[39m(B[m http[32m:[39m(B[m//35.185.241.145[32m:[39m(B[m8080/fibonacci [32m>[39m(B[m result8 [32m&&[39m(B[m (B[0;1m[34mgrep[18;72H[39m(B[m[?12l[?25h[?25l[39d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                     [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;18H(B[0;7mC(B[m Cancel[K[39;63H[?12l[?25h[?25l[40d(B[0;7m^G(B[m Get Help[40;33H(B[0;7mM-D(B[m DOS Format[40;65H(B[0;7mM-A(B[m Append[40;97H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [33G(B[0;7mM-M(B[m Mac Format[41;65H(B[0;7mM-P(B[m Prepend[41;97H(B[0;7m^T(B[m To Files[39d(B[0;7mFile Name to Write: script.sh                                (B[m[39;30H[?12l[?25h[?25l[K[1;129H[1;121H(B[0;7m        (B[m[39;57H(B[0;7m[ Wrote 19 lines ](B[m[J[41;130H[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ nano script.sh [9Pman abnano script.sh [3Pcat newfile[Cab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ [49Pgit push "https://github.com/dtauraso/cs385lab4.git" master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcommit -m "Added scrips and output files"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kstatusab -p payload.json -T application/json -m POST -c 10000 -n 30000 -s 1 -r http://35.185.241.145:8080/fibonaccii > result7[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cab -p payload.json -T application/json -m POST -c 5000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci  > result6[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coutput1 output2 output3 output4 output5 output6 output7 output8 > newfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano script.sh [Kgrep -E 'Concurrency Level:|Requests per second:|(longest request)|98%' result6 > output6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano script.sh [Kab -p payload.json -T application/json -m POST -c 5000 -n 20000 -s 1 -r http://35.185.241.145:8080/fibonacci  > result6 && \[A]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ nano script.sh [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pcat newfile[Csh ./script.sh
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+Completed 4500 requests
+Completed 9000 requests
+Completed 13500 requests
+Completed 18000 requests
+Completed 22500 requests
+Completed 27000 requests
+Completed 31500 requests
+Completed 36000 requests
+Completed 40500 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ cat newfile 
+Concurrency Level:      50
+Requests per second:    5256.44 [#/sec] (mean)
+  98%     16
+ 100%     30 (longest request)
+Concurrency Level:      100
+Requests per second:    5036.60 [#/sec] (mean)
+  98%     33
+ 100%     51 (longest request)
+Concurrency Level:      500
+Requests per second:    4860.54 [#/sec] (mean)
+  98%   1272
+ 100%   1512 (longest request)
+Concurrency Level:      1000
+Requests per second:    3612.57 [#/sec] (mean)
+  98%   1715
+ 100%   2757 (longest request)
+Concurrency Level:      2000
+Requests per second:    3542.82 [#/sec] (mean)
+  98%   2668
+ 100%   2795 (longest request)
+Concurrency Level:      5000
+Requests per second:    1302.82 [#/sec] (mean)
+  98%   4591
+ 100%  15338 (longest request)
+Concurrency Level:      10000
+Requests per second:    254.95 [#/sec] (mean)
+  98%  113535
+ 100%  117638 (longest request)
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ kubectl get replicaset
+NAME                   DESIRED   CURRENT   READY     AGE
+fibonacci-6cc58d67cf   1         1         1         1h
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ au[Kwk {}'{}[C[C'p}'r}'in}'t}' }'$}'1}'[C[C newfile 
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+Concurrency
+Requests
+98%
+100%
+]0;dtauraso@lab04: ~/Fib[01;32mdtauraso@lab04[00m:[01;34m~/Fib[00m$ awk '{print $1}' newfile 

@@ -1,4 +1,7 @@
-Concurrency Level:      500
-Requests per second:    4453.16 [#/sec] (mean)
-  98%   1071
- 100%   1469 (longest request)
+12
+500
+10204.07
+294
+179
+
+
